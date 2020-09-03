@@ -1,0 +1,260 @@
+body{
+    background: linear-gradient(90deg,rgb(49, 49, 139),rgb(3, 3, 46));
+     
+     
+ }
+
+ #kk
+ {
+     color:white;
+     font-size: 50px;
+     margin-left:40%;
+ }
+
+
+
+ #hexagonal2
+{
+    margin-top:-110px;
+    margin-left: -80px;
+}
+
+
+
+ #hex14 {                                 /*Hex14*/
+    width: 100px;
+    height: 55px;
+    margin-left:140px;
+    margin-top:50px;
+    
+   
+    background: #21b4e2;
+    position: relative;
+  }
+  #hex14:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #21b4e2;
+  }
+  #hex14:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #21b4e2;
+  }
+
+
+
+
+  
+  #hex15 {                                 /*Hex15*/
+    width: 100px;
+    height: 55px;
+    margin-left:195px;
+    margin-top:35px;
+   
+  
+    background: #21b4e2;
+    position: relative;
+  }
+  #hex15:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #21b4e2;
+  }
+  #hex15:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #21b4e2;
+  }
+
+
+
+  #hex16 {                                 /*Hex16*/
+    width: 100px;
+    height: 55px;
+    margin-left:84px;
+    margin-top:-55px;
+   
+    
+    background: #21b4e2;
+    position: relative;
+  }
+  #hex16:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #21b4e2;
+  }
+  #hex16:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #21b4e2;
+  }
+  #hex14 :hover
+  {
+    transform: scale(1.5); 
+  }
+  #hex15 :hover
+  {
+    transform: scale(1.4); 
+  }
+  #hex16 :hover
+  {
+    transform: scale(1.2); 
+  }
+
+
+
+
+
+  
+
+  #img2,#img3,#img1
+  {
+    width:60px;
+    height:55px;
+    margin-left:20px;
+   
+  }
+  #img4
+  {
+    width:60px;
+    height:50px;
+    margin-left:10px;
+  }
+
+
+
+  #content
+  {
+    margin-left: 300px;
+  
+    
+  }
+  #text2
+  {
+    color:white;
+  }
+  #contact
+  {
+    color: white;
+    margin-left: 200px;
+    color:rgb(77, 249, 255);
+    
+  }
+  #contact_form
+  {
+    margin-left: 300px;
+  }
+  #name,#email,#website,#massege
+  {
+    margin-left: 0px;
+    color:white;
+  }
+  #input1,#input2,#input3
+  {
+    margin-top:-15px;
+    border-radius: 5px;
+  }
+  
+  #in1,  #in2,  #in3
+  {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: rgb(9, 19, 18) 1px solid;
+  
+  }
+  #in4
+  {
+    width: 800px;
+    height: 200px;
+    border-radius: 5px;
+    font-size:20px ;
+    
+  }
+  textarea:focus {
+    background-color: rgb(164, 243, 230);
+  }
+  input:focus
+  {
+    background: rgb(164, 243, 230);
+    
+  }
+
+  #submit
+  {
+    width: 120px;
+    height: 55px;
+    border-radius: 30px ;
+    background:rgb(12, 145, 179);
+    font-size: 20px;
+    color:white;
+    border:none;
+  }
+  #submit:hover
+{
+  background: rgb(255, 60, 0);
+  color:white;
+}
+  #Privacy,#about_us
+  {
+  color:white;
+  margin-left:500px;
+  font-size: 40px;
+  margin-top:60px;
+  }
+  #content2
+  {
+    width: 1100px;
+    height: auto;
+    margin-left: 150px;
+    margin-top:50px;
+    color: white;
+  }
+  
+ #About_Us
+ {
+   margin-left: 200px;
+   color:white;
+ }
+ #pk
+ {
+   color: #3cf2ff;
+ }
